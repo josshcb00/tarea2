@@ -8,7 +8,7 @@
 Para expresar los datos obtenidos en un gráfico linear, se debe utilizar este comando:
 
 > #Gráfico linear
-
+> 
 plot(inp[,2], type = "l", col="blue",xlab = "Días", ylab = "Caudal (mL/día)", main= "Tasa de nivel de caudal de los Ríos Banano y Estrella")
 
 lines(inp[,3], col="cyan")
@@ -24,8 +24,7 @@ legend(
   inset = -0.04,
   
   horiz = FALSE
-  
-  >_)
+  )
 
 Este comando creará este gráfico:
 
