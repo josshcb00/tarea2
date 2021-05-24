@@ -45,13 +45,12 @@ Los datos obtenidos con el comando de *summary* se pueden realizar histogramas c
 
 Este es otro tipo de gráfico que s epuede realizar con el sigueinte comando:
 
->*plot(Estrella, col="blue",xlab = "Rango absoluto", ylab = "Frecuencia", main= "Datos recolectados del río Estrella")*
+>*plot(Estrella, col="blue",xlab = "Frecuencia", ylab = "Rango absoluto", main= "Datos recolectados del río Estrella")*
 
-![plotestrella](https://user-images.githubusercontent.com/83330908/119291255-616b0d80-bc0b-11eb-8ebb-20054c5e27a0.png)
 
->*plot(Banano,col="cyan",xlab = "Rango absoluto", ylab = "Frecuencia", main= "Datos recolectados del río Banano")*
 
-![plotbanano](https://user-images.githubusercontent.com/83330908/119291312-79429180-bc0b-11eb-8ccd-e1c47dd3ce0b.png)
+>*plot(Banano,col="cyan",xlab = "Frecuencia", ylab = "Rango absoluto", main= "Datos recolectados del río Banano")*
+
 
 
 
