@@ -13,7 +13,12 @@ lines(inp[,3], col="cyan")
 legend(
   x = "topright",
   legend = c("Río Estrella", "Río Banano"),
-  fill = topo.colors`#f03c15`(6),
+  fill = topo.colors(6),
   inset = -0.04,
   horiz = FALSE
 )
+
+Este comando creará este gráfico:
+
+![Rplot01](https://user-images.githubusercontent.com/83330908/119286951-b5252900-bc02-11eb-8762-c4e33b0bff5b.png)
+
