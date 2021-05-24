@@ -57,7 +57,7 @@ Este es otro tipo de gráfico que se puede realizar con el siguiente comando:
 
 Primeramente se debe establecer las variables (*MAQ y MMQ*) y el *Tempdate* con los siguientes comandos:
 
-#### Tempdate
+#### *Tempdate*
 
 >*Tempdate <- strptime(inp[,1], format= "%d/%m/%Y")*
 
@@ -75,6 +75,8 @@ Primeramente se debe establecer las variables (*MAQ y MMQ*) y el *Tempdate* con 
 
 ### Cantidad Máxima Anual (*MAQ*)
 
+Para realizar la graficación en conjunto de amobos ríos, se utiliza el siguiente comando:
 
+>*
 
   
