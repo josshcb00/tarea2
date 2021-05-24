@@ -94,12 +94,9 @@ Este es el gráfico que se obtendría:
 
 ### Cantidad Máxima Mensual (*MMQ*)
 
-Para realizar la graficación en conjunto de amobos ríos, se utiliza el siguiente comando:
+Para realizar la graficación en conjuntvo de amobos ríos, se utiliza el siguiente comando:
 
-  >*plot(MMQ_Banano, ylim=c(100,3000),xlab = "Meses",ylab = "Frecuencia", main = "Cantidad máxima de flujo de corriente (mes)")
-lines(MMQ_Estrella, col=4)
-lines(MMQ_Banano, col="cyan" )
-legend(
+  >*plot(MMQ_Banano, ylim=c(100,3000),xlab = "Meses",ylab = "Frecuencia", main = "Cantidad máxima de flujo de corriente (mes)")                                                       lines(MMQ_Estrella, col=4)                                                                                                                                                       lines(MMQ_Banano, col="cyan" )                                                                                                                                                   legend(
   x = "topright",
   legend = c("Río Estrella","Río Banano"),
   fill = topo.colors(6),
@@ -115,7 +112,7 @@ Este es el gráfico que se obtendría:
 
 Esto se puede realizar con el siguiente comando:
 
->*corinp <- cor(inp[,2:3], method= "spearman")                                                                                                                                     corinp                                                                                                                                                                           plot(Banano,Estrella, main = "Análisis de correlación")
+> *corinp <- cor(inp[,2:3], method= "spearman")                                                                                                                                     corinp                                                                                                                                                                           plot(Banano,Estrella, main = "Análisis de correlación")*
 
 
 
