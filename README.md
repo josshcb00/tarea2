@@ -37,5 +37,11 @@ Los datos obtenidos con el comando de *summary* se pueden realizar histogramas c
 
 ![Histograma rio estrella](https://user-images.githubusercontent.com/83330908/119290278-76df3800-bc09-11eb-9c30-fee72f41644d.png)
 
+>*hist(inp[,3],col="cyan",xlab = "Rango absoluto", ylab = "Frecuencia", main= "Histograma de los datos recolectados del río Banano")*
+
+![Histograma rio banano](https://user-images.githubusercontent.com/83330908/119290435-ba39a680-bc09-11eb-948c-9d55f397b5f1.png)
+
+
+
 
   
