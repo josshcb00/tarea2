@@ -114,7 +114,9 @@ Esto se puede realizar con el siguiente comando:
 
 > *corinp <- cor(inp[,2:3], method= "spearman")                                                                                                                                     corinp                                                                                                                                                                           plot(Banano,Estrella, main = "Análisis de correlación")*
 
+Esta es la gráfica:
 
+![correlación](https://user-images.githubusercontent.com/83330908/119297336-f96ef400-bc17-11eb-87d1-a5e137ff0bff.png)
 
 ### Modelo de regreso de caudal
 
@@ -122,5 +124,12 @@ Esto es un tipo de modelo que nos permite visualizar en el tiempo cómo ha inter
 
 Se puede obtener con el siguiente comando:
 
->
+>* main = "Modelo de regreso de caudal", 
+     xlab = "Relación entre río Estrella y Banano", 
+     ylab = "Residuos estandarizados")*
+     
+Esta es la gráfica:
+
+![Sin título](https://user-images.githubusercontent.com/83330908/119298962-499b8580-bc1b-11eb-9c4e-1a14f42e56bb.png)
+
 
