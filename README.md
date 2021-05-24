@@ -11,20 +11,20 @@ Para expresar los datos obtenidos en un gráfico linear, se debe utilizar este c
 
 >plot(inp[,2], type = "l", col="blue",xlab = "Días", ylab = "Caudal (mL/día)", main= "Tasa de nivel de caudal de los Ríos Banano y Estrella")
 
-lines(inp[,3], col="cyan")
+>lines(inp[,3], col="cyan")
 
-legend(
-  x = "topright",
+>legend(
+  >x = "topright",
   
-  legend = c("Río Estrella", "Río Banano"),
+  >legend = c("Río Estrella", "Río Banano"),
   
-  fill = topo.colors(6),
+  >fill = topo.colors(6),
   
-  inset = -0.04,
+  >inset = -0.04,
   
-  horiz = FALSE
+  >horiz = FALSE
   
-  )
+  >)
 
 Este comando creará este gráfico:
 
