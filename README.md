@@ -111,4 +111,19 @@ Este es el gráfico que se obtendría:
 
 ![mmq](https://user-images.githubusercontent.com/83330908/119294904-c5dd9b00-bc12-11eb-8fd7-6cca377ca85b.png)
 
+### Analizar correlación de las variables.
+
+Esto se puede realizar con el siguiente comando:
+
+>*corinp <- cor(inp[,2:3], method= "spearman")                                                                                                                                     corinp                                                                                                                                                                           plot(Banano,Estrella, main = "Análisis de correlación")
+
+
+
+### Modelo de regreso de caudal
+
+Esto es un tipo de modelo que nos permite visualizar en el tiempo cómo ha interactuado y se ha transformado el caudal.
+
+Se puede obtener con el siguiente comando:
+
+>
 
