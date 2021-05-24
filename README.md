@@ -13,7 +13,7 @@ lines(inp[,3], col="cyan")
 legend(
   x = "topright",
   legend = c("Río Estrella", "Río Banano"),
-  fill = topo.colors(6),
+  fill = topo.colors`#f03c15`(6),
   inset = -0.04,
   horiz = FALSE
 )
