@@ -9,14 +9,21 @@ Para expresar los datos obtenidos en un gráfico linear, se debe utilizar este c
 
 >_# Gráfico linear
 
->_plot(inp[,2], type = "l", col="blue",xlab = "Días", ylab = "Caudal (mL/día)", main= "Tasa de nivel de caudal de los Ríos Banano y Estrella")
+plot(inp[,2], type = "l", col="blue",xlab = "Días", ylab = "Caudal (mL/día)", main= "Tasa de nivel de caudal de los Ríos Banano y Estrella")
+
 lines(inp[,3], col="cyan")
+
 legend(
   x = "topright",
+  
   legend = c("Río Estrella", "Río Banano"),
+  
   fill = topo.colors(6),
+  
   inset = -0.04,
+  
   horiz = FALSE
+  
 )
 
 Este comando creará este gráfico:
