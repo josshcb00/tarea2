@@ -61,13 +61,17 @@ Primeramente se debe establecer las variables (*MAQ y MMQ*) y el *Tempdate* con 
 
 >*Tempdate <- strptime(inp[,1], format= "%d/%m/%Y")*
 
-#### *MAQ*
+#### *MAQ (Maximum Annual Quantity)*
 
 >*MAQ_Estrella <- tapply(inp[,2], format(Tempdate, format="%Y"),FUN=sum)*
+
 >*MAQ_Banano <- tapply(inp[,3], format(Tempdate, format="%Y"),FUN=sum)*
 
+#### *MMQ (Maximum Monthly Quantity)*
 
+>*MMQ_Estrella <- tapply(inp[,2], format(Tempdate, format="%m"),FUN=sum)*
 
+>*MMQ_Banano <- tapply(inp[,3], format(Tempdate, format="%m"),FUN=sum)*
 
 ### Cantidad Máxima Anual (*MAQ*)
 
