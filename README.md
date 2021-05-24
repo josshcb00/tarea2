@@ -92,5 +92,23 @@ Este es el gráfico que se obtendría:
 
 ![maq](https://user-images.githubusercontent.com/83330908/119294580-02f55d80-bc12-11eb-86df-20157bbb18ba.png)
 
+### Cantidad Máxima Mensual (*MMQ*)
 
-  
+Para realizar la graficación en conjunto de amobos ríos, se utiliza el siguiente comando:
+
+  >*plot(MMQ_Banano, ylim=c(100,3000),xlab = "Meses",ylab = "Frecuencia", main = "Cantidad máxima de flujo de corriente (mes)")
+lines(MMQ_Estrella, col=4)
+lines(MMQ_Banano, col="cyan" )
+legend(
+  x = "topright",
+  legend = c("Río Estrella","Río Banano"),
+  fill = topo.colors(6),
+  inset = -0.04,
+  horiz = FALSE
+)*
+
+Este es el gráfico que se obtendría:
+
+![mmq](https://user-images.githubusercontent.com/83330908/119294904-c5dd9b00-bc12-11eb-8fd7-6cca377ca85b.png)
+
+
