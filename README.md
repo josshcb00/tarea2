@@ -47,11 +47,11 @@ Este es otro tipo de gráfico que s epuede realizar con el sigueinte comando:
 
 >*plot(Estrella, col="blue",xlab = "Frecuencia", ylab = "Rango absoluto", main= "Datos recolectados del río Estrella")*
 
-
+![plotestrella](https://user-images.githubusercontent.com/83330908/119291602-f79f3380-bc0b-11eb-9acb-75ff61ac7da9.png)
 
 >*plot(Banano,col="cyan",xlab = "Frecuencia", ylab = "Rango absoluto", main= "Datos recolectados del río Banano")*
 
-
+![plotbanano](https://user-images.githubusercontent.com/83330908/119291612-ff5ed800-bc0b-11eb-8e0f-0fd9876b1a77.png)
 
 
 
