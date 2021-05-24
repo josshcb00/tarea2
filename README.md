@@ -11,7 +11,7 @@ Esto generará en la consola estos datos de las variables respectivas:
 ![Summary](https://user-images.githubusercontent.com/83330908/119290174-44353f80-bc09-11eb-98d8-def2d617167f.PNG)
 
 
-## Gráfico de líneas
+### Gráfico de líneas
 
 Para expresar los datos obtenidos en un gráfico linear, se debe utilizar este comando:
  
@@ -29,7 +29,7 @@ Este comando creará este gráfico:
 
 ![Rplot01](https://user-images.githubusercontent.com/83330908/119286951-b5252900-bc02-11eb-8762-c4e33b0bff5b.png)
 
-## Histogramas
+### Histogramas
 
 Los datos obtenidos con el comando de *summary* se pueden realizar histogramas con el siguiente comando, ya sea para graficar los datos del río Estrella o Banano.
 
@@ -41,7 +41,7 @@ Los datos obtenidos con el comando de *summary* se pueden realizar histogramas c
 
 ![Histograma rio banano](https://user-images.githubusercontent.com/83330908/119290435-ba39a680-bc09-11eb-948c-9d55f397b5f1.png)
  
-## Gráficos plot
+### Gráficos plot
 
 Este es otro tipo de gráfico que se puede realizar con el siguiente comando:
 
@@ -53,7 +53,23 @@ Este es otro tipo de gráfico que se puede realizar con el siguiente comando:
 
 ![plotbanano](https://user-images.githubusercontent.com/83330908/119291612-ff5ed800-bc0b-11eb-8e0f-0fd9876b1a77.png)
 
+## **Graficar cantidades máximas de mediciones**
 
+Primeramente se debe establecer las variables (*MAQ y MMQ*) y el *Tempdate* con los siguientes comandos:
+
+#### Tempdate
+
+>*Tempdate <- strptime(inp[,1], format= "%d/%m/%Y")*
+
+#### *MAQ*
+
+>*MAQ_Estrella <- tapply(inp[,2], format(Tempdate, format="%Y"),FUN=sum)*
+>*MAQ_Banano <- tapply(inp[,3], format(Tempdate, format="%Y"),FUN=sum)*
+
+
+
+
+### Cantidad Máxima Anual (*MAQ*)
 
 
 
