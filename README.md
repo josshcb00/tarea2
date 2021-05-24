@@ -25,7 +25,7 @@ legend(
   
   horiz = FALSE
   
-  )>
+  >_)
 
 Este comando creará este gráfico:
 
