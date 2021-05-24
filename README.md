@@ -11,7 +11,7 @@ Esto generará en la consola estos datos de las variables respectivas:
 ![Summary](https://user-images.githubusercontent.com/83330908/119290174-44353f80-bc09-11eb-98d8-def2d617167f.PNG)
 
 
-## Gráfico de líneas
+### Gráfico de líneas
 
 Para expresar los datos obtenidos en un gráfico linear, se debe utilizar este comando:
  
@@ -29,7 +29,7 @@ Este comando creará este gráfico:
 
 ![Rplot01](https://user-images.githubusercontent.com/83330908/119286951-b5252900-bc02-11eb-8762-c4e33b0bff5b.png)
 
-## Histogramas
+### Histogramas
 
 Los datos obtenidos con el comando de *summary* se pueden realizar histogramas con el siguiente comando, ya sea para graficar los datos del río Estrella o Banano.
 
@@ -41,9 +41,9 @@ Los datos obtenidos con el comando de *summary* se pueden realizar histogramas c
 
 ![Histograma rio banano](https://user-images.githubusercontent.com/83330908/119290435-ba39a680-bc09-11eb-948c-9d55f397b5f1.png)
  
-## Gráficsos plot
+### Gráficos plot
 
-Este es otro tipo de gráfico que s epuede realizar con el sigueinte comando:
+Este es otro tipo de gráfico que se puede realizar con el siguiente comando:
 
 >*plot(Estrella, col="blue",xlab = "Frecuencia", ylab = "Rango absoluto", main= "Datos recolectados del río Estrella")*
 
